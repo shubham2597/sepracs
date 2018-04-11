@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
-    private void submit1(){
+    private void submit(){
 
         if(awesomeValidation.validate()){
             Toast.makeText(this,"Registration Successfully...!!!",Toast.LENGTH_SHORT).show();
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v==btn){
-            submit1();
+            submit();
         }
     }
 }
